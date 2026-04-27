@@ -69,7 +69,7 @@ export const translations = {
       { name: "DevOps & Infra", desc: "Deployment automation and cloud infrastructure. Efficient dev environments." },
       { name: "IoT & Monitoring", desc: "Sensor data collection and real-time monitoring dashboards with Spring Boot." },
       { name: "Database", desc: "Choosing the right DB for the job and optimizing queries." },
-      { name: "Always Learning", desc: "New tech is always welcome. Pick it up fast and ship it." },
+      { name: "Always Learning", desc: "New tech? Adapt fast, deliver faster." },
     ],
     experiences: [
       {
