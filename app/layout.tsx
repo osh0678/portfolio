@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "se0ng.dev",
     images: [
       {
-        url: "/og",
+        url: "https://se0ng.dev/og.png",
         width: 1200,
         height: 630,
         alt: "Seonghwan Oh — Developer",
@@ -29,7 +29,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Seonghwan Oh — Developer",
     description: "Full-stack developer. Java, Spring Boot, React, Next.js.",
-    images: ["/og"],
+    images: ["https://se0ng.dev/og.png"],
+    creator: "@osh0678",
   },
   icons: {
     icon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻</text></svg>",

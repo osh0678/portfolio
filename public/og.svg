@@ -1,0 +1,52 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="90%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#1a3a6b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#080b10" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="10%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#0d2a1a" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#080b10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#080b10"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="1198" height="628" fill="none" stroke="#21262d" stroke-width="2"/>
+
+  <!-- Domain badge -->
+  <circle cx="80" cy="80" r="6" fill="#3fb950" opacity="1">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="96" y="86" font-family="monospace" font-size="18" fill="#58a6ff" letter-spacing="2">se0ng.dev</text>
+
+  <!-- Name: Seonghwan -->
+  <text x="80" y="280" font-family="sans-serif" font-size="100" font-weight="700" fill="#e6edf3" letter-spacing="-3">Seonghwan</text>
+
+  <!-- Name: Oh. with gradient -->
+  <text x="80" y="390" font-family="sans-serif" font-size="100" font-weight="700" fill="url(#textGrad)" letter-spacing="-3">Oh.</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="460" font-family="monospace" font-size="22" fill="#7d8590">Full-stack Developer — Java · Spring Boot · React · Next.js</text>
+
+  <!-- Tags -->
+  <rect x="80" y="500" width="120" height="40" rx="20" fill="rgba(88,166,255,0.08)" stroke="rgba(88,166,255,0.3)" stroke-width="1"/>
+  <text x="140" y="526" font-family="monospace" font-size="14" fill="#58a6ff" text-anchor="middle">Backend</text>
+
+  <rect x="212" y="500" width="130" height="40" rx="20" fill="rgba(88,166,255,0.08)" stroke="rgba(88,166,255,0.3)" stroke-width="1"/>
+  <text x="277" y="526" font-family="monospace" font-size="14" fill="#58a6ff" text-anchor="middle">Frontend</text>
+
+  <rect x="354" y="500" width="120" height="40" rx="20" fill="rgba(88,166,255,0.08)" stroke="rgba(88,166,255,0.3)" stroke-width="1"/>
+  <text x="414" y="526" font-family="monospace" font-size="14" fill="#58a6ff" text-anchor="middle">DevOps</text>
+
+  <rect x="486" y="500" width="140" height="40" rx="20" fill="rgba(88,166,255,0.08)" stroke="rgba(88,166,255,0.3)" stroke-width="1"/>
+  <text x="556" y="526" font-family="monospace" font-size="14" fill="#58a6ff" text-anchor="middle">Blockchain</text>
+</svg>
